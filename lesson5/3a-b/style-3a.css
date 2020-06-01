@@ -1,0 +1,32 @@
+.wrp {
+    width: 300px;
+    padding: 10px;
+    background: rgb(158, 126, 126);
+    position: fixed;
+    top: 20%;
+}
+
+.dispn {
+    display: none;
+}
+
+span {
+    position: absolute;
+    right: -15px;
+    top: -15px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 25px;
+    height: 25px;
+    border-radius: 50%;
+    background: rgb(158, 126, 126);
+    font-size: 34px;
+    cursor: pointer;
+    transition: 0.5s;
+}
+
+span:hover {
+    background: black;
+    color: white;
+}

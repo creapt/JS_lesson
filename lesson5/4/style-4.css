@@ -1,0 +1,17 @@
+body {
+    display: flex;
+    flex-direction: column;
+}
+
+.product {
+    width: 150px;
+}
+
+img {
+    display: block;
+}
+
+button {
+    margin-top: 50px;
+    display: block;
+}
